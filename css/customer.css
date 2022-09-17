@@ -1,0 +1,124 @@
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+       
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .gallery-customer{
+        /* width: 1200px;
+        height: 1118px;
+        left: calc(50% - 1200px/2); */
+      }
+      
+      .customer-overlay{
+        max-width: 1600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: 
+        url(../images/Ice-cream-fon.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+      
+      }
+      .container-customer {
+        width: 968px;
+        height: 364px; 
+        margin-left: auto;
+        margin-right: auto;
+        
+
+        
+
+      }
+      .swiper-wrapper{
+        
+        
+      }
+      .swiper-slide { 
+       
+        display: block;
+        justify-content: center;
+        text-align: center;      
+        
+        
+        
+      }
+
+      .swiper-slide-icon {
+        
+        align-items: center;        
+        object-fit: cover;
+        margin-bottom:32px;
+       }
+      .swiper-slide-text {
+       margin-bottom: 32px;
+       margin-top: 0px;
+        padding: 39px 73px 39px 73px;
+        background-color: #84A178;
+        border-radius: 24px ;
+
+        font-family:'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.86; 
+       text-align: center;
+        letter-spacing: 0.04em;
+
+        color: #FCFCFC;
+        
+
+      }
+      .swiper-slide-name {
+        font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 186%;
+         
+
+          text-align: center;
+
+          color: #131313;
+          margin-top: 0;
+          margin-bottom: 32px;
+
+      }
+     
+      .swiper-pagination {
+        position: static;
+        text-align: center;
+        transition: .3s opacity;
+        transform: translate3d(0,0,0);
+        z-index: 10;
+    }
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        margin:0 9px !important;
+        display: inline-block;
+        
+        border-radius: 50%;
+        background: var(--swiper-pagination-bullet-inactive-color,#d9d9d9);
+        opacity: var(--swiper-pagination-bullet-inactive-opacity);
+        
+    }
+       .swiper-pagination-bullet-active{
+          background: #84A178;
+          box-shadow: 0px 3px 1px rgb(0 0 0 / 10%),
+                      0px 1px 2px rgb(0 0 0 / 8%),
+                      0px 2px 2px rgb(0 0 0 / 12%);
+
+
+      }
